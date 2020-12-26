@@ -1,0 +1,12 @@
+#This is meant to start your day and open all of the things you usually use during the day. 
+Invoke-Item '\\ssisfp0004\Operations\Operations New\0 - Operations processes\Daily Checkoff List\Operations Daily Check off List- New.xlsx'
+#Still missing how to convert this Excel Directly into PDF using PS.
+Invoke-Item '\\ssisfp0004\Operations\Operations New\0 - AS400\ISERIES INFORMATION\Screen shots of AS400 active controllers\ACTIVE AS400 CONTROLLERS 10.1.20 8 am check.docx'
+Invoke-Item 'C:\Program Files\Mozilla Firefox\firefox.exe'
+
+#Another way of doing it
+cd 'C:\Program Files\Mozilla Firefox'
+
+$list = "https://ororagroup.service-now.com/nav_to.do?uri=%2F$pa_dashboard.do", "https://west-mon1.ona.net/Orion/Login.aspx?sessionTimeout=yes&ReturnUrl=%2fOrion%2fNetPerfMon%2fNodeDetails.aspx%3fNetObject%3dN%3a334", "https://10.12.112.6/phpipam/index.php?page=login", "https://app.smartsheet.com/b/home?lx=wk5EDEfSKfM1rNg_SHxUv8xMCrPTobCHRjN8MPWaIe8&mt=16&cs=t&hcm=0&nmri=0"
+timeout 1
+start firefox $list
