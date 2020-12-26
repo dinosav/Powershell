@@ -1,0 +1,5 @@
+cd 'C:\Program Files\Mozilla Firefox'
+start firefox.exe https://landsbergeps.com/
+timeout 1
+$list = "landsbergfulfillment.com", "google.com", "landsbergfulfillment.com", "www.mppmfg.com", "corrukraft.com", "www.landsberg.com", "www.landsberg.com/missionfoods", "www.landsberg.com/expeditors", "www.landsberg.com/lampsplus", "www.landsberg.com/napa", "www.landsberg.com/toyota", "www.landsberg.com/caitofoods", "www.masterbox.com", "www.worldwideplastics.net", "landsbergpromotions.com", "www.corrugatedpackagingsolutions.net", "orders.mppmfg.com", "order.corru-kraft.com", "http://ororahome.sunclipse.net", "http://ororahome.sunclipse.net/", "resources.landsberg.com", "ororafresh.com", "ororapackagingsolutions.com", "www.opsbeverage.com", "www.ororavisual.com", "https://globalflexorora.com/", "http://www.pollockpaper.com/", "http://pollock-packaging.com/", "https://www.pollock.com", "https://www.pollockadvantage2.com/", "https://ororapackagingsolutions.com/company/about-ops/bronco-orora/"
+start firefox $list
