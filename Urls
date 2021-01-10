@@ -1,3 +1,7 @@
+#This was done to automate a DailyCheckOff List task consisting of opening webpages and verifying if they were up and running.
+#This can be further automated by receiving a response with Python and using ICMP messages maybe, will look into this since we would only have to examine one output and check what is up or down.
+
+
 cd 'C:\Program Files\Mozilla Firefox'
 start firefox.exe https://landsbergeps.com/
 timeout 1
